@@ -1,0 +1,65 @@
+#perfil{
+    display: block;
+}
+
+.botoes {
+    background-color: #47167D;
+    border-color: #47167D;
+}
+
+body {
+    background-color:#EFEFEFff;
+    font-family: 'Arvo', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    border-left: 70px solid white;
+    border-right: 70px solid white;
+    padding: 0 50px;
+    width: 100%;
+    max-width: 100vw;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 330%;
+    letter-spacing: 2px;
+    color: white;
+}
+
+h2{
+    font-size: 125%;
+    letter-spacing: 7px;
+    color: #47167D;
+}
+
+h3{
+    font-size: 85%;
+    color: #765996;
+}
+
+h4 {
+    font-size: 76%;
+    color: #765996;
+}
+
+li {
+    color: #765996;
+    font-size: 87%;
+}
+
+hr {
+    margin: 15px;
+  }
+
+#imglaranja{
+    width: 35%;
+    margin-left: 710px;
+}
+
+#imgrosa{
+    width: 85%;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    right: 0;
+    z-index: 1;
+}
