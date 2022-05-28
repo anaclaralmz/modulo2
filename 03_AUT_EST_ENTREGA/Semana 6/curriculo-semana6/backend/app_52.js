@@ -11,7 +11,7 @@ const urlencodedParser = bodyParser.urlencoded({ extended: false })
 app.use(express.static("../frontend/"));
 app.use(express.json());
 
-app.get('/curriculo', (req, res) => {
+app.get('/academico', (req, res) => {
   res.statusCode = 200;
   res.setHeader('Access-Control-Allow-Origin', '*');
 
