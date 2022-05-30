@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exercicio 3</title>
-    <script src="scripts/script.js"></script>
-</head>
-<body>
-    <h1>Exercício 3</h1>
 
-    <div>
-        <label for="Lista">Insira os números separados por uma vírgula: </label>
-        <input type="texto" name="string" id="string">
-    </div>
-    <div>
-        <input type="button" onclick= "ordenarlista()" value="ordenar a lista" id="ordenar">
-    </div>
-    <ul id="resultado"></ul>
-    </div>
-    <script src="scripts/script.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>exercicio 3</title>
+        <script src="./scripts/script.js"></script>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
 
-</body>
+    <body>
+        <div>
+            <h1>Exercício 3 - Semana 5</h1>
+        </div>
+
+        <div>
+            <label for="Lista">Escreva os números separados por uma vírgula: </label>
+            <input type="texto" name="string" id="string">
+
+            <label for="valorfoco">Valor foco: </label>
+            <input type="number" name="valorfoco" id="valorFoco" />
+        </div>
+        <div>
+            <button onclick="sortList();" id="ordenar">
+                Ordenar
+            </button>
+        </div>
+
+        <ul id="resultado"></ul>
+
+        </div>
+
+        <script src="./scripts/script.js"></script>
+
+    </body>
+
 </html>
