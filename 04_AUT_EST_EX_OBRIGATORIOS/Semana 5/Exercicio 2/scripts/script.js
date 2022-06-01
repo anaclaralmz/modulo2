@@ -1,7 +1,7 @@
 function calcular(){
 
     var preço = Number(document.getElementById ("preço").value);
-    var notas = [100, 50, 20, 20, 5, 2, 1];
+    var notas = [100, 50, 20, 10, 5, 2, 1];
     var resultado  = [0,0,0,0,0,0,0]; //armazenar resultados da quantidade de notas
     var divResultado = document.getElementById("mostrarResultado");
 
@@ -18,4 +18,3 @@ function calcular(){
         }
     }
 }
-    
