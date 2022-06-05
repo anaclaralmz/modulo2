@@ -1,13 +1,20 @@
 # Ana Clara Loureiro Müller Zaidan
 Minhas entregas estão definidas aqui:
 ## Auto Estudo (entregas)
-<a href="https://github.com/anaclaralmz/modulo2/commit/62eee7a0628f1e30fb6b1f1e6fd0b2b31e3c9c64"> 07/05/2022 - Entrega 3 (semana 4)- currículo com js</a>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%202"> 28/04/2022 - Entrega 1 (semana 2)- currículo com html</a>
 <br>
-<a href="https://github.com/anaclaralmz/modulo2/commit/84fbfc1006860b18986057be1132bdafed961854"> 11/05/2022 - Entrega 4 (semana 5)- currículo com jquery</a>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%203"> 07/05/2022 - Entrega 2 (semana 3)- currículo com css</a>
 <br>
-<a href="https://github.com/anaclaralmz/modulo2/commit/b08d0eb4fb0346cc457e6e5eeb9bffcf74c38c4a"> 22/05/2022 - Entrega 5 (semana 6)- currículo com banco de dados</a>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%204"> 11/05/2022 - Entrega 3 (semana 4)- currículo com js</a>
+<br>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%205"> 22/05/2022 - Entrega 4 (semana 5)- currículo com jquery</a>
+<br>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%206"> 27/05/2022 - Entrega 5 (semana 6)- currículo com banco de dados</a>
+<br>
+<a href=""> 05/06/2022 - Entrega 6 (semana 7)- currículo com endpoints</a>
 
 ## Obrigatórios (exercicios)
-<a href="https://github.com/anaclaralmz/modulo2/commit/57010929aa7e1d5dbb29f6637b9fc38b7c3d856e"> 06/05/2022 - Exercício semana 3</a>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203"> 06/05/2022 - Exercício semana 3 (sobre velocidade)</a>
 <br>
-<a href="https://github.com/anaclaralmz/modulo2/commit/46d2e233f04e581ac3e313a23b090a42fd4039b8"> 23/05/2022 - Exercícios semana 5 (3)</a>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205"> 23/05/2022 - Exercícios semana 5 (3)</a>
+<a href=""> 05/06/2022 - Exercícios semana 7 (5)</a>
