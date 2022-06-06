@@ -17,4 +17,5 @@ Minhas entregas estão definidas aqui:
 <a href="https://github.com/anaclaralmz/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203"> 06/05/2022 - Exercício semana 3 (sobre velocidade)</a>
 <br>
 <a href="https://github.com/anaclaralmz/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205"> 23/05/2022 - Exercícios semana 5 (3)</a>
+<br>
 <a href="https://github.com/anaclaralmz/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"> 05/06/2022 - Exercícios semana 7 (5)</a>
