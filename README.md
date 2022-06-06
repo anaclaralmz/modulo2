@@ -11,10 +11,10 @@ Minhas entregas estão definidas aqui:
 <br>
 <a href="https://github.com/anaclaralmz/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%206"> 27/05/2022 - Entrega 5 (semana 6)- currículo com banco de dados</a>
 <br>
-<a href=""> 05/06/2022 - Entrega 6 (semana 7)- currículo com endpoints</a>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%207"> 05/06/2022 - Entrega 6 (semana 7)- currículo com endpoints</a>
 
 ## Obrigatórios (exercicios)
 <a href="https://github.com/anaclaralmz/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203"> 06/05/2022 - Exercício semana 3 (sobre velocidade)</a>
 <br>
 <a href="https://github.com/anaclaralmz/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205"> 23/05/2022 - Exercícios semana 5 (3)</a>
-<a href=""> 05/06/2022 - Exercícios semana 7 (5)</a>
+<a href="https://github.com/anaclaralmz/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"> 05/06/2022 - Exercícios semana 7 (5)</a>
