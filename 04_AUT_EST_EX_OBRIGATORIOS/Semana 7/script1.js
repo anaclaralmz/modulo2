@@ -1,3 +1,4 @@
+const { enable } = require("express/lib/application");
 
 // exercicio 1
 function somarUm() { //funcao para add 1 ao input
@@ -69,6 +70,51 @@ function calcularPreco(){ //funcao para calcular o valor total da compra
 }
 
 //exercicio 5
-function calcularEstatistica(){
     
-}
+// a média de cada aluno, calculada considerando peso 2 para a prova e 3 para o trabalho;
+
+// a média geral, considerando todos os alunos;
+
+// a média artiméticas das notas de prova;
+    function mediaProva(){
+        var prova = document.getElementById("prova").value.split(",").map(Number);
+        var somaP= 0;
+        for (let i=0 ; i<prova.length ; i++){
+            somaP += prova[i];
+            // console.log(somaP);
+        }
+        var resultadoMP= (somaP)/(prova.length);
+        mediaprova.innerHTML= "média artiméticas das notas da prova: " + resultadoMP;
+    // console.log(resultadoMP);
+    }
+
+    // a média artiméticas das notas de trabalho;
+    function mediaTrabalho(){
+        var trab = document.getElementById("trabalho").value.split(",").map(Number);
+        var somaT= 0;
+        for (let i=0 ; i<trab.length ; i++){
+            somaT += trab[i];
+            // console.log(somaT);
+        }
+       var resultadoMT= (somaT)/(trab.length);
+        mediatrabalho.innerHTML= "média artiméticas das notas do trabalho: " + resultadoMT;
+        // console.log(resultadoMT);
+    }
+
+// a menor e a maior notas de prova;
+    function extremosProva(){
+        let prova = document.getElementById("prova").value.split(",").map(Number);
+        let melhorProva= Math.max(...prova); //os "..." sao um spred operator, que serve para o js ler elemento por elemento e achar o maior
+        let piorProva= Math.min(...prova);
+        // console.log(melhorProva)
+        extremosprova.innerHTML= "a nota mais alta na prova foi: " + melhorProva + " , e a nota mais baixa foi: " + piorProva;
+    }
+
+// a menor e a maior notas de trabalho. Obs: note que a quantidade de campos para inserção das notas de cada aluno depende da quantidade de alunos informada.
+    function extremosTrabalho(){
+        let trabalho = document.getElementById("trabalho").value.split(",").map(Number);
+        let melhorTrabalho= Math.max(...trabalho); //os "..." sao um spred operator, que serve para o js ler elemento por elemento e achar o maior
+        let piorTrabalho= Math.min(...trabalho);
+        // console.log(melhorTrabalho)
+        extremostrabalho.innerHTML= "a nota mais alta no trabalho foi: " + melhorTrabalho + " , e a nota mais baixa foi: " + piorTrabalho;
+    }
