@@ -49,6 +49,7 @@ var user = {
                 }).always(function (msg) {
                     //console.log('ALWAYS');
                 });
+
             }
         }
     },
@@ -78,7 +79,7 @@ var user = {
 
         if (confirm('Confirma a exclusão?')) {
             $.ajax({
-                type: 'api',
+                type: 'POST',
                 url: api + '/userdelete',
                 data: {userId: userId},
             }).done(function () {

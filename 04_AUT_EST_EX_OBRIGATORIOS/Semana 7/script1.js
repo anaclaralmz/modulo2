@@ -72,8 +72,14 @@ function calcularPreco(){ //funcao para calcular o valor total da compra
 //exercicio 5
     
 // a média de cada aluno, calculada considerando peso 2 para a prova e 3 para o trabalho;
+    function mediaIndividual(){
+
+    }
 
 // a média geral, considerando todos os alunos;
+    function mediaGeral(){
+
+    }
 
 // a média artiméticas das notas de prova;
     function mediaProva(){
@@ -84,7 +90,7 @@ function calcularPreco(){ //funcao para calcular o valor total da compra
             // console.log(somaP);
         }
         var resultadoMP= (somaP)/(prova.length);
-        mediaprova.innerHTML= "média artiméticas das notas da prova: " + resultadoMP;
+        mediaprova.innerHTML= "média artimética das notas da prova: " + resultadoMP;
     // console.log(resultadoMP);
     }
 
@@ -97,14 +103,14 @@ function calcularPreco(){ //funcao para calcular o valor total da compra
             // console.log(somaT);
         }
        var resultadoMT= (somaT)/(trab.length);
-        mediatrabalho.innerHTML= "média artiméticas das notas do trabalho: " + resultadoMT;
+        mediatrabalho.innerHTML= "média artimética das notas do trabalho: " + resultadoMT;
         // console.log(resultadoMT);
     }
 
 // a menor e a maior notas de prova;
     function extremosProva(){
         let prova = document.getElementById("prova").value.split(",").map(Number);
-        let melhorProva= Math.max(...prova); //os "..." sao um spred operator, que serve para o js ler elemento por elemento e achar o maior
+        let melhorProva= Math.max(...prova); //os "..." sao um spread operator, que serve para o js ler elemento por elemento e achar o maior
         let piorProva= Math.min(...prova);
         // console.log(melhorProva)
         extremosprova.innerHTML= "a nota mais alta na prova foi: " + melhorProva + " , e a nota mais baixa foi: " + piorProva;

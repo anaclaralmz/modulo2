@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicios semana 7</title>
     <script src="script1.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main">
         <!-- exercicio 1 -->
-        <div>
+        <div class="div">
             <h1>Exercicio 1</h1>
             <h3>insira um número, e quando apertar os botões, você terá a possibilidade de adicionar ou subtrair 1 do valor do campo.</h3>
             <label for="insira um número"></label>
@@ -18,48 +19,49 @@
             <button onclick="somarUm();">+ 1</button>
             <button onclick="subtrairUm();">- 1</button>
         </div>
-    </div>
-    <!-- exercicio 2 -->
-    <div>
-        <h1>Exercicio 2</h1>
-        <h3>insira dois valores nos campos abaixo, e, quando clicar no botão, você terá a possibilidade de inverter os valores de campos.</h3>
-        <input type="text" id="input1" placeholder="valor 1">
-        <input type="text" id="input2" placeholder="valor 2">
-        <button onclick="trocar();">Troca</button>
-    </div>
-    <!-- exercicio 3 -->
-    <div>
-        <h1>Exercicio 3</h1>
-        <h3>insira o numero do seu celular no formato especificado abaixo (sem caracteres especiais)</h3>
-        <label for="insira seu número de celular"></label>
-            <input type="text" placeholder="(XX)XXXXX-XXXX" id="celular">
-        <button onclick="checar();">enviar</button>
-    </div>
-    <!-- exercicio 4 -->
-    <div>
-        <h1>Exercicio 4</h1>
-        <h3>informe a quantidade de pessoas e o período (Noturno ou Diurno) para as passagens que você deseja comprar</h3>
-        <input type="text" placeholder="quantidade de pessoas" id="pessoas">
-        <select id="periodo">
-            <option value="">periodo</option>
-            <option value="NOTURNO">noturno</option>
-            <option value="DIURNO">diurno</option>
-        </select>
-        <button onclick="calcularPreco();">Add ao carrinho</button>
-        <div><p id="resultado"></p></div>
-    </div>
-    <!-- exercicio 5 -->
-    <div>
-        <h1>Exercicio 5</h1>
-        <h3>informe a quantidade de alunos e as notas de cada aluno na prova e no trabalho (separadas por virgulas)</h3>
-        <input type="text" id= "alunos" placeholder="quantidade de alunos">
-        <input type="text" id= "prova" placeholder="notas na prova">
-        <input type="text" id= "trabalho" placeholder="notas no trabalho">
-        <button onclick="mediaTrabalho(); mediaProva(); extremosProva(); extremosTrabalho();">calcular dados estatísticos</button>
-        <div><p id="mediatrabalho"></p></div>
-        <div><p id="mediaprova"></p></div>
-        <div><p id="extremosprova"></p></div>
-        <div><p id="extremostrabalho"></p></div>
+    
+        <!-- exercicio 2 -->
+        <div class="div">
+            <h1>Exercicio 2</h1>
+            <h3>insira dois valores nos campos abaixo, e, quando clicar no botão, você terá a possibilidade de inverter os valores de campos.</h3>
+            <input type="text" id="input1" placeholder="valor 1">
+            <input type="text" id="input2" placeholder="valor 2">
+            <button onclick="trocar();">Troca</button>
+        </div>
+        <!-- exercicio 3 -->
+        <div class="div">
+            <h1>Exercicio 3</h1>
+            <h3>insira o numero do seu celular no formato especificado abaixo (sem caracteres especiais)</h3>
+            <label for="insira seu número de celular"></label>
+                <input type="text" placeholder="(XX)XXXXX-XXXX" id="celular">
+            <button onclick="checar();">enviar</button>
+        </div>
+        <!-- exercicio 4 -->
+        <div class="div">
+            <h1>Exercicio 4</h1>
+            <h3>informe a quantidade de pessoas e o período (Noturno ou Diurno) para as passagens que você deseja comprar</h3>
+            <input type="text" placeholder="quantidade de pessoas" id="pessoas">
+            <select id="periodo">
+                <option value="">periodo</option>
+                <option value="NOTURNO">noturno</option>
+                <option value="DIURNO">diurno</option>
+            </select>
+            <button onclick="calcularPreco();">Add ao carrinho</button>
+            <div><p id="resultado"></p></div>
+        </div>
+        <!-- exercicio 5 -->
+        <div class="div">
+            <h1>Exercicio 5</h1>
+            <h3>informe a quantidade de alunos e as notas de cada aluno na prova e no trabalho, respectivamente (separadas por virgulas). </h3>
+            <input type="text" id= "alunos" placeholder="quantidade de alunos">
+            <input type="text" id= "prova" placeholder="notas na prova">
+            <input type="text" id= "trabalho" placeholder="notas no trabalho">
+            <button onclick="mediaTrabalho(); mediaProva(); extremosProva(); extremosTrabalho();">calcular dados estatísticos</button>
+            <div><p id="mediatrabalho"></p></div>
+            <div><p id="mediaprova"></p></div>
+            <div><p id="extremosprova"></p></div>
+            <div><p id="extremostrabalho"></p></div>
+        </div>
     </div>
 </body>
 </html>
