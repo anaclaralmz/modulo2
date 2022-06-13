@@ -9,9 +9,3 @@ function toggleContent() {
         div.removeClass("d-none")
     }
 }
-
-function postAcademico(){
-    let adicionarvalor = document.getElementById(addacademico).value;
-    
-
-}

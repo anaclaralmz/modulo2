@@ -138,7 +138,8 @@
         </div>
         <div class="d-flex justify-content-center p-4">
             <label for="Adicione um item à tabela de formação acadêmica:"></label>
-                <input id="addformacao" placeholder="instituicao:x; ano de formacao:y" type="text">
+                <input name="addInstituicao" id="addInstituicao" placeholder="instituição" type="text">
+                <input name="addAno" placeholder="ano de formação" type="text" id="addano">
             <button class="btn btn-primary botoes" name= "addbanco" onclick="postAcademico();">add</button>
             <br>
                 <label for="Edite um item da tabela de formação acadêmica:"></label>
@@ -149,7 +150,7 @@
                 <input id="delformacao" placeholder="instituicao:x; ano de formacao:y" type="text">
             <button class="btn btn-primary botoes" name= "delbanco" onclick="">deletar</button>
             <br>
-            <button class="btn btn-primary botoes" name= "mostrarbanco" onclick="">visualizar tabela de dados acadêmicos </button>
+            <button class="btn btn-primary botoes" name= "mostrarbanco" onclick="getAcademico();">visualizar tabela de dados acadêmicos </button>
             
         </div>
 
@@ -160,6 +161,7 @@
         
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/script_frontend.js"></script>
+    <script src="scripts/script_integracoes.js"></script>
 </body>
 </html>

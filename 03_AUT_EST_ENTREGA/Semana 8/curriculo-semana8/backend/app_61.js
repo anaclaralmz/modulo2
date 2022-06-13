@@ -34,16 +34,12 @@ app.get('/academico', (req, res) => {
 });
 
 // Insere um registro (é o C do CRUD - Create)
-app.post('/academicoinsert', urlencodedParser, (req, res) => {
-const addbanco = req.body.addformacao;
-  if (addbanco) {
-    sql = "INSERT INTO academico VALUES ('" + req.body.instituicao + "', '" + req.body.anodeformacao + "')";
-}
+app.post('/academicoinsert', (req, res) => {
   res.statusCode = 200;
   res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
 
-  
   var db = new sqlite3.Database(DBPATH); // Abre o banco
+  sql = "INSERT INTO academico VALUES ('" + req.body.instituicao + "', '" + req.body.anodeformacao + "')";
   db.run(sql, [], err => {
     if (err) {
       throw err;
