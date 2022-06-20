@@ -39,7 +39,7 @@ app.post('/academicoinsert', (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
 
   var db = new sqlite3.Database(DBPATH); // Abre o banco
-  sql = "INSERT INTO academico VALUES ('" + req.body.instituicao + "', '" + req.body.anodeformacao + "')";
+  sql = "INSERT INTO academico (instituicao, anodeformacao) VALUES ('" + req.body.instituicao + "', '" + req.body.anodeformacao + "')";
   db.run(sql, [], err => {
     if (err) {
       throw err;
@@ -54,7 +54,7 @@ app.put('/academicoupdate', urlencodedParser, (req, res) => {
   res.statusCode = 200;
   res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
 
-  sql = "UPDATE academico SET instituicao = '" + req.body.instituicao + "', anodeformacao = '" + req.body.novoanodeformacao + "' WHERE anodeformacao = " + req.body.anodeformacao;
+  sql = "UPDATE academico SET instituicao = '" + req.body.instituicao + "', anodeformacao = '" + req.body.novoanodeformacao + "' WHERE anodeformacao = '" + req.body.anodeformacao +"'";
   var db = new sqlite3.Database(DBPATH); // Abre o banco
   db.run(sql, [], err => {
     if (err) {
@@ -70,7 +70,7 @@ app.delete('/academicodelete', urlencodedParser, (req, res) => {
   res.statusCode = 200;
   res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
 
-  sql = "DELETE FROM academico WHERE anodeformacao = " + req.body.anodeformacao;
+  sql = "DELETE FROM academico WHERE anodeformacao = '" + req.body.anodeformacao + "'";
   var db = new sqlite3.Database(DBPATH); // Abre o banco
   db.run(sql, [], err => {
     if (err) {

@@ -9,3 +9,15 @@ function toggleContent() {
         div.removeClass("d-none")
     }
 }
+
+// let div = $("#div-banco")
+
+// function toggleContentt() {
+//     if(div.hasClass("d-flexx")){
+//         div.removeClass("d-flexx")
+//         div.addClass("d-nonee")
+//     } else {
+//         div.addClass("d-flexx")
+//         div.removeClass("d-nonee")
+//     }
+// }

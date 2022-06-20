@@ -29,21 +29,26 @@
 
 
 function postAcademico() {
-    const addInstituicao = document.querySelector("#addInstituicao").value;
-    const addAno = document.querySelector("#addano").value;
+    // const addinstituicao = document.getElementById("addInstituicao").value;
+    // const addano = parseInt(document.getElementById("addAno").value);
 
-    console.log(addInstituicao, addAno)
+    const addinstituicao = document.querySelector("input[name='addInstituicao']").value;
+    const addano = document.querySelector("input[name='addAno']").value;
+
+    console.log(addinstituicao, addano)
 
     var settings = {
         "url": "http://127.0.0.1:3061/academicoinsert",
         "method": "POST",
         "timeout": 0,
         "data": {
-            "instituicao": addInstituicao,
-            "anodeformacao": addAno
+            "instituicao": addinstituicao,
+            "anodeformacao": addano
         }
     };
-    $.ajax(settings);
+    $.ajax(settings).done(response => {
+        console.log(response)
+    });
 }
 
 

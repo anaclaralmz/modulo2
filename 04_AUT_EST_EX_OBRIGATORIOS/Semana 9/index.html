@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios semana 9</title>
+</head>
+<body>
+    <!-- Exercicio 1 -->
+    <div>
+        <h2>Exercício 1</h2>
+        <h4>Digite um número de 3 dígitos e descubra se o dígito da centena é par ou ímpar</h4>
+        <input id="numerocentenario" type="text" minlength="3" maxlength="3" placeholder="XXX">
+        <button onclick="digitoCentena();">descobrir</button>
+        <p id="ex1"></p>
+    </div>
+    <!-- Exercicio 2 -->
+    <div>
+        <h2>Exercício 2</h2>
+        <h4>Informe um número inteiro positivo, e aperte o botão para calcular a soma de seus dígitos</h4>
+        <input id="let2" type="text" placeholder="numero inteiro positivo">
+        <button onclick="somarDigitos();">somar dígitos</button>
+        <p id="ex2"></p>
+    </div>
+
+    <!-- Exercicio 3 -->
+    <div>
+        <h2>Exercício 3</h2>
+        <h4>Informe 3 nomes, separados por vírgulas e sem espaço entre eles. ex: "ana,jose,antonio", e aperte o botão para colocá-los em ordem alfabética</h4>
+        <input type="text" id="let3" placeholder="nome 1,nome 2,nome 3">
+        <button onclick="ordenarNomes();">ordenar nomes</button>
+        <p id="ex3"></p>
+
+    </div>
+
+    <!-- Exercicio 4 -->
+    <div>
+        <h2>Exercicio 4</h2>
+        <h4>Insira um número n e descubra a série Fibonacci até este número (n>0)</h4>
+        <input id="let4" type="number" placeholder="n">
+        <button onclick="calcularSerie();">descobrir série Fibonacci</button>
+        <p id="ex4"></p>
+    </div>
+
+    <!-- Exercicio 5 -->
+    <div>
+        <h2>Exercicio 5</h2>
+        <h4>Insira dois números naturais n1 e n2, representando um intervalo fechado [n1, n2], e descubra todos os numeros primos nesse intervalo</h4>
+        <input type="text" placeholder="n1" id="n1">
+        <input type="text" placeholder="n2" id="n2">
+        <button onclick="calcularPrimos();">descubrir</button>
+        <p id="ex5"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

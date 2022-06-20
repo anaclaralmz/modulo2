@@ -133,25 +133,34 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center p-4">
-            <button class="btn btn-primary botoes" id= "banco" onclick="">Banco de dados</button>
+        <div class="d-flexx justify-content-center p-4">
+            <center>
+            <button class="btn btn-primary botoes" onclick="toggleContentt();">Banco de dados - tabela formação acadêmica</button>
+            </center>
         </div>
-        <div class="d-flex justify-content-center p-4">
+        <div class="d-nonee justify-content-center p-4" id="div-banco">
+            <center>
             <label for="Adicione um item à tabela de formação acadêmica:"></label>
                 <input name="addInstituicao" id="addInstituicao" placeholder="instituição" type="text">
-                <input name="addAno" placeholder="ano de formação" type="text" id="addano">
+            <input name="addAno" placeholder="ano de formação" type="number" id="addAno">
             <button class="btn btn-primary botoes" name= "addbanco" onclick="postAcademico();">add</button>
             <br>
+
                 <label for="Edite um item da tabela de formação acadêmica:"></label>
-                <input id="editformacao" placeholder="instituicao:x; ano de formacao:y" type="text">
-            <button class="btn btn-primary botoes" name= "editbanco" onclick="">editar</button>
+                    <input id="antigoAno" name= "antigoAno" placeholder="ano de formação" type="text">
+                <input id="novaInstituicao" name="novaInstituicao" placeholder="nova instituição" type="text">
+                <input id="novoAno" name="novoAno" placeholder="novo ano de formação" type="text">
+                
+            <button class="btn btn-primary botoes" name= "editbanco" onclick="putAcademico();">editar</button>
             <br>
-                <label for="Delete um item da tabela de formação acadêmica:"></label>
-                <input id="delformacao" placeholder="instituicao:x; ano de formacao:y" type="text">
-            <button class="btn btn-primary botoes" name= "delbanco" onclick="">deletar</button>
+
+                <label for="Delete um item da tabela de formação acadêmica, através do ano de formação:"></label>
+                    <input id="deleteAno" name="deleteAno" placeholder="ano de formação da linha" type="text">
+            <button class="btn btn-primary botoes" name= "delbanco" onclick="deleteAcademico();">deletar</button>
             <br>
-            <button class="btn btn-primary botoes" name= "mostrarbanco" onclick="getAcademico();">visualizar tabela de dados acadêmicos </button>
-            
+            <br>
+            <button class="btn btn-primary botoes" id="mostrarbanco" name= "mostrarbanco" onclick="getAcademico();">visualizar tabela de dados acadêmicos </button>
+            </center>   
         </div>
 
 
