@@ -77,11 +77,39 @@ function calcularSerie(){
 function calcularPrimos(){
     var numero1 = parseInt(document.getElementById("n1").value);
     var numero2 = parseInt(document.getElementById("n2").value);
-    var lista5 = [];
-
+    var listaPrimos = [];
+    // console.log(numero1, numero2)
     if (numero1>0 && numero2>0 && Number.isInteger(numero1) && Number.isInteger(numero2)) {
-        for(let i=0; ){
-
+       
+        var lista5=[numero1];
+         //armazena a quantidade de divisores de cada número
+        
+        for(let i=0; i < lista5.length; i++){  // para criar um array com todos os numeros inteiros do intervalo
+            var numero5 = lista5[i] + 1;
+            if (numero5 <= numero2){
+                lista5.push(numero5)
+            }
         }
+        // console.log(lista5)
+
+        for(let j=0; j < lista5.length-1; j++){  // para checar se é primo
+            var divisores = 0;
+            for(var count=1; count<= lista5[j] ; count++){
+                
+                if(lista5[j] % count == 0){
+                divisores++;
+                }
+            }
+            if(divisores==2){
+                primo = lista5[j];
+                listaPrimos.push(primo)
+            }
+            // console.log(listaPrimos)
+        }
+        ex5.innerHTML= "os números primos desse intervalo são: " + listaPrimos
+        // console.log(listaPrimos)
+    }
+    else{
+        alert("os números precisam ser naturais")
     }
 }
