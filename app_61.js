@@ -3,10 +3,10 @@ const express = require('express');
 const app = express();
 
 const sqlite3 = require('sqlite3').verbose();
-const DBPATH = 'dbCurriculo.db';
+const DBPATH = '03_AUT_EST_ENTREGA/Semana 8/curriculo-semana8/backend/dbCurriculo.db';
 const bodyParser = require('body-parser');
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
-app.use(express.static("../frontend/"));
+app.use(express.static("03_AUT_EST_ENTREGA/Semana 8/curriculo-semana8/frontend/"));
 app.use(express.json());
 
 /* Definição dos endpoints */
