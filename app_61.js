@@ -2,8 +2,6 @@
 const express = require('express');
 const app = express();
 
-const hostname = '127.0.0.1';
-const port = 3061;
 const sqlite3 = require('sqlite3').verbose();
 const DBPATH = 'dbCurriculo.db';
 const bodyParser = require('body-parser');
@@ -81,6 +79,6 @@ app.delete('/academicodelete', urlencodedParser, (req, res) => {
   db.close(); // Fecha o banco
 });
 
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(process.env.PORT, () => {
+  console.log(`Server running`);
 });
