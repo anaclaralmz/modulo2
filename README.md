@@ -1,4 +1,5 @@
 # Ana Clara Loureiro Müller Zaidan
+Este repositório é referente às atividades de programação entregues no módulo 2 do curso de engenharia de software no INTELI.
 Minhas entregas estão definidas aqui:
 ## Auto Estudo (entregas)
 <a href="https://github.com/anaclaralmz/modulo2/tree/main/03_AUT_EST_ENTREGA/Semana%202"> 28/04/2022 - Entrega 1 (semana 2)- currículo com html</a>
